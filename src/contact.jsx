@@ -4,7 +4,7 @@ function Contact(){
     <section id="cont" className="contact text-white flex flex-col justify-center items-center ">
   <h2 className="text-4xl text-center font-bold ">Contact <span  className="text-sky-400">Me !</span></h2>
 
-  <form  className=" h-[500px]  flex flex-col  w-[70%] p-4" >
+  <form  className="h-[500px]  flex flex-col  w-[70%] p-4" >
 
     <div className="input-box flex gap-4 justify-between w-[100%]">
       <div className="w-[90%]">
