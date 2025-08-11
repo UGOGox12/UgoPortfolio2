@@ -10,7 +10,7 @@ export default function Home(){
           Frontend Developer
         </h3>
         <p className=" relative Open mt-3 mb-3">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+          Lorem ipoom dolor, sit amet consectetur adipisicing elit. Reiciendis
           voluptas ducimus id. Non, officiis iure nulla ratione nemo
           voluptatibus error quas, sit minima molestiae, fugit quo facere?
         </p>
