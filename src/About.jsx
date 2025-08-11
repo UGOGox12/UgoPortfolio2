@@ -20,7 +20,7 @@ export default function About(){
       <div className="about-content text-center"></div>
       <h3 className="text-4xl ">Frontend Developer !</h3>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim vero
+        Lorem dolor sit amet consectetur adipisicing elit. Enim vero
         voluptate nisi porro possimus voluptatum tenetur libero repudiandae
         incidunt ipsum necessitatibus facere, nulla adipisci mollitia obcaecati
         qui, exercitationem ullam fugiat. Ex, alias est repellendus dicta
