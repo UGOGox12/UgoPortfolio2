@@ -23,7 +23,7 @@ export default function Navbar(){
   <> 
     <header className=" stick fixed z-50 bg-transparent  w-[100%] top-0 left-0 p-[20px] flex justify-around items-center gap-[50%] max-sm:gap-[20%] transition-[1s]">
       <p href="#Home" className="relative text-3xl text-white font-black Open">
-        Ugo.
+        Ugo..
       </p>
        <button className=" BUT " >
         <img src="./src/assets/hamburger-White.svg" alt="hamburger menu" />
