@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+body{
+    background-color: #162456;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Open::before{
+    content:'';
+    position: absolute;
+    background-color: #162456;
+    animation: OpenSlide 2s ease forwards ;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%;
+}
+ 
+
+.circle-spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid #162456 ;
+    border-bottom: .2rem solid #162456 ;
+    border-left: .2rem solid oklch(74.6% 0.16 232.661) ;
+    border-right: .2rem solid oklch(74.6% 0.16 232.661) ;
+}
+
+
+.dev{
+    
+    -webkit-text-stroke:.7px skyblue;
+}
+@keyframes OpenSlide {
+    100%{
+        width: 0;
+    }
+}
+
+.education-content::before{
+    content: '';
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0;
+    background-color:oklch(74.6% 0.16 232.661) ;
+    border-radius: 100%;
+    left: -1rem;
+}
+
+.skill-content::before,.education-content .content::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(12, 166, 255, 0.404);
+    transition: .5s;
+    z-index: -1;
+}
+
+.skill-content:hover::before,.education-content .content:hover::before{
+    width: 100%;
+}
+
+.skill-col{
+    flex: 1 1 ;
+}
+
+.progress{
+    padding:1rem 9px ;
+}
+ 
+.progress h3{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    height: 2.5rem;
+    border: 2px solid oklch(74.6% 0.16 232.661);
+    border-radius: 10px;
+    padding: .4rem;
+    margin: .5rem 0;
+}
+
+.bar span{
+    height: 100%;
+    background-color: oklch(74.6% 0.16 232.661);
+    display: block;
+    border-radius: 10px;
+}
+
+.focus{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: .6rem;
+    z-index: -1;
+    transition: .5s;
+}
+
+.stick{
+    background-color:  #162456;
+}
+
+.ham{
+        position: absolute;
+        background-color: black;
+        top: 100%;
+        width:100%  ;
+        left:0%;
+        padding:1rem 4% ;
+        box-shadow: 0.5rem 1rem rgb(0, 0, 0, .2);
+        display: flex;
+        flex-direction: column;
+
+}
+.hamLink{
+        display: block;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+@media (min-width:768px){
+    header .BUT{
+        display: none;
+        
+    }
+    }
+@media (max-width:768px){
+    header a{
+        display: none;
+        
+        
+    }
+    header{
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+
+    .BUT{
+        position: absolute;
+        right: 0;
+        margin-right: 2rem;
+    }
+
+    }
+.BUT{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0;
+    padding: 3px;
+}
+
+  
+    
