@@ -2,7 +2,7 @@ export default function Home(){
     return(
         <>
          <section id="Home" className="home text-white mt-20 p-[30px] items-center ml-13 inline-block " >
-      <div className="home-content max-w-[600px] ">
+      <div className="home-content max-w-[600px] mt-10 ">
         <h1 className="relative text-5xl font-extrabold Open">
           Hey, I'm Ugochukwu Esomonu
         </h1>
@@ -33,7 +33,7 @@ export default function Home(){
           </a>
         </div>
       </div>
-      <div className="my-Socials flex  gap-20 mt-7 ml-5">
+      <div className="my-Socials flex  gap-20 mt-20 ml-5">
         <a href="#">
           {" "}
           <img
