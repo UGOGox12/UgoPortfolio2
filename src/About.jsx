@@ -2,7 +2,7 @@ export default function About(){
     return(
         <>
         <section
-      className=" AboutUsSection text-white about flex justify-center items-center  flex-col gap-[1.5rem] pb-[6rem] p-23 w-[100%] m-auto  "
+      className=" AboutUsSection text-white about flex justify-center items-center  flex-col gap-[1.5rem] pb-[6rem] p-23 w-[100%] m-auto max-sm:p-10  "
       id="about"
     >
       <h2 className="heading text-[2.5rem] font-bold  text-center mb-[.7rem] ">

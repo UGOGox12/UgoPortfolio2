@@ -1,8 +1,8 @@
 export default function Home(){
     return(
         <>
-         <section id="Home" className="home text-white mt-20 p-[30px] inline-block w-[100%] h-[100vh] m-auto max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:text-center" >
-      <div className="home-content max-w-[600px] mt-10 ml-10 flex flex-col gap-3.5 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+         <section id="Home" className="home text-white mt-20 p-[30px] inline-block w-[100%] h-[100vh] m-auto max-sm:flex max-sm:flex-col max-sm:justify-center  max-sm:items-center max-sm:text-center" >
+      <div className="home-content max-sm:m-0 max-w-[600px] mt-10 ml-10 flex flex-col gap-3.5 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
         <h1 className="relative text-5xl font-extrabold Open max-sm:text-4xl">
           Hey, I'm Ugochukwu Esomonu
         </h1>
@@ -36,7 +36,7 @@ export default function Home(){
         </div>
       </div>
       
-      <div className="my-Socials Open  flex  gap-20 mt-20 ml-10 ">
+      <div className="my-Socials max-sm:ml-0 Open  flex  gap-20 mt-20 ml-10 ">
         
         <a href="#" className="text-white">
           <img
