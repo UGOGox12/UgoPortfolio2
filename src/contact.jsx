@@ -1,7 +1,7 @@
 function Contact(){
     return(
     <>
-    <section id="cont" className="contact text-white flex flex-col justify-center items-center  ">
+    <section id="cont" className="contact text-white flex flex-col justify-center gap-4 items-center w-[100%] m-auto ">
   <h2 className="text-4xl text-center font-bold mb-7 mt-8 max-sm:mb-15">Contact <span  className="text-sky-400">Me !</span></h2>
 
   <form  className="h-[500px]  flex flex-col  w-[70%] p-4 justify-center items-center" >

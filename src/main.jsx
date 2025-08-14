@@ -10,7 +10,7 @@ import Footer from './Footer.jsx';
 import Navbar from './Navbar.jsx';
 createRoot(document.getElementById('root')).render(
 <>
-<div className='bg-blue-950 w-[100vw] h-[100vh] '>
+<div className=' w-[100vw] h-[100vh]  '>
     <Navbar/>
     <Home/>
     <About/>

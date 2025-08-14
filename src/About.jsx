@@ -2,7 +2,7 @@ export default function About(){
     return(
         <>
         <section
-      className=" AboutUsSection text-white about flex justify-center items-center  flex-col gap-[1.5rem] pb-[6rem] p-23 "
+      className=" AboutUsSection text-white about flex justify-center items-center  flex-col gap-[1.5rem] pb-[6rem] p-23 w-[100%] m-auto  "
       id="about"
     >
       <h2 className="heading text-[2.5rem] font-bold  text-center mb-[.7rem] ">
@@ -21,7 +21,7 @@ export default function About(){
           </div>        
 
       <div className="about-content text-center"></div>
-      <h3 className="text-4xl ">Frontend Developer !</h3>
+      <h3 className="text-4xl text-center ">Frontend <span className="text-sky-400">Developer!</span></h3>
       <p className="text-center">
         Like you've seen, my name is Ugochukwu Esomonu, but please 
         call me Ugo for short. I like coding simple Pygames for fun, love board

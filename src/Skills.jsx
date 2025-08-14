@@ -2,7 +2,7 @@ function Skills(){
     return(
         <>
         
-<section className="skills text-white pb-[4rem] h-auto p-15" id="skills" >
+<section className=" w-[100%] m-auto  skills text-white pb-[4rem] h-auto p-15" id="skills" >
   <h2 className="text-[2.5rem] font-bold mb-15 text-center">
         My <span className="text-sky-400 ">Skills</span>
       </h2>
@@ -14,22 +14,22 @@ function Skills(){
           <div className="skill-content relative border-2 border-sky-400 rounded-2xl p-[.5rem] pb-[1.5rem]">
 
             <div className="progress">
-              <h3>HTML <span className="text-sky-400">100%</span></h3>
+              <h3>HTML <span className="text-sky-400 font-extrabold">100%</span></h3>
               <div className="bar"><span></span></div>
             </div>
 
             <div className="progress">
-              <h3>CSS <span className="text-sky-400">90%</span></h3>
+              <h3>CSS <span className="text-sky-400 font-extrabold">90%</span></h3>
               <div className="bar"><span className="w-[90%]"></span></div>
             </div>
 
             <div className="progress">
-              <h3>Javascipt <span className="text-sky-400" >82%</span></h3>
+              <h3>Javascipt <span className="text-sky-400 font-extrabold" >82%</span></h3>
               <div className="bar"><span className="w-[82%]"></span></div>
             </div>
 
             <div className="progress">
-              <h3>Python <span className="text-sky-400">80%</span></h3>
+              <h3>Python <span className="text-sky-400 font-extrabold">80%</span></h3>
               <div className="bar"><span className="w-[80%]"></span></div>
             </div>
 
@@ -42,22 +42,22 @@ function Skills(){
           <div className="skill-content  relative border-2 border-sky-400 rounded-2xl p-[.5rem] pb-[1.5rem]">
 
             <div className="progress">
-              <h3>React.js <span className="text-sky-400">75%</span></h3>
+              <h3>React.js <span className="text-sky-400 font-extrabold">75%</span></h3>
               <div className="bar"><span className="w-[75%]"></span></div>
             </div>
 
             <div className="progress">
-              <h3>Tailwind CSS <span className="text-sky-400">85%</span></h3>
+              <h3>Tailwind CSS <span className="text-sky-400 font-extrabold">85%</span></h3>
               <div className="bar"><span className="w-[85%]"></span></div>
             </div>
 
             <div className="progress">
-              <h3>C/C++ <span className="text-sky-400" >90%</span></h3>
+              <h3>C/C++ <span className="text-sky-400 font-extrabold" >90%</span></h3>
               <div className="bar"><span className="w-[90%]"></span></div>
             </div>
 
             <div className="progress">
-              <h3>Git,Version Control <span className="text-sky-400">70%</span></h3>
+              <h3>Git,Version Control <span className="text-sky-400 font-extrabold">70%</span></h3>
               <div className="bar"><span className="w-[70%]"></span></div>
             </div>
 

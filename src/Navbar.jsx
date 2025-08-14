@@ -6,7 +6,6 @@ import { createRoot } from "react-dom/client";
 
 
 
-
 // document.querySelector("header BUT").addEventListener("click", ()=>{
 //     document.querySelector("nav").classList.toggle("ham")
 //    document.querySelector("nav a").classList.toggle("hamLink")
@@ -24,7 +23,7 @@ function hamburger1(){
 
   return(
   <> 
-    <header className=" justify-center stick fixed z-50 bg-transparent  w-[100%] top-0 left-0 p-[20px] flex  items-center gap-[50%] max-sm:gap-[15%] transition-[1s]">
+    <header className=" max-lg:gap-60 max-md:gap-50 Open shadow-2xl  justify-center stick fixed z-50 bg-transparent  w-[100%] top-0 left-0 p-[20px] flex  items-center gap-[50%] max-sm:gap-[15%] transition-[1s]">
       <p href="#Home" className="relative text-3xl text-white font-black Open">
         Ugo.
       </p>

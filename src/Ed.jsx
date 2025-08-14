@@ -1,11 +1,11 @@
 export default function Education(){
     return(
         <>
-            <section  className=" education text-white flex items-center justify-center flex-col p-[5rem] " id="edu">
-      <h2 className="text-4xl font-bold mb-15">
+            <section  className=" education text-white flex items-center justify-center flex-col p-[5rem] w-[100%] m-auto  " id="edu">
+      <h2 className="text-4xl font-bold mb-15 text-center">
         My <span className="text-sky-400">Journey</span>
       </h2>
-      <div className="education-row flex gap-[4rem] max-sm:flex-col justify-center">
+      <div className="education-row flex gap-[4rem] max-sm:flex-col justify-center max-sm:text-center">
         <div className="education-column ">
 
           <h3 className="text-2xl font-bold ml-4 mb-4">Education</h3>
