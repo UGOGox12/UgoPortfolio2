@@ -4,7 +4,7 @@ function Contact(){
     <section id="cont" className="contact text-white flex flex-col justify-center gap-4 items-center w-[100%] m-auto ">
   <h2 className="text-4xl text-center font-bold mb-7 mt-8 max-sm:mb-15">Contact <span  className="text-sky-400">Me !</span></h2>
 
-  <form  className="h-[500px]  flex flex-col  w-[70%] p-4 justify-center items-center" >
+  <form action="wronggweg@gmail.com" method="post" className="h-[500px]  flex flex-col  w-[70%] p-4 justify-center items-center" >
 
     <div className="input-box flex gap-4 justify-between w-[100%] max-sm:flex-col max-sm:gap-0 items-center">
       <div className="w-[90%]">
@@ -38,10 +38,10 @@ function Contact(){
     </div>
     <div className="  mt-6 btn-box w-[345px] h-[50px] flex items-center justify-center max-sm:mb-15 max-sm:mt-5">
         <a
-          href="#"
+          href="mailto:wronggweg@gmail.com"
           className=" btn  text-center relative w-[150px] bg-sky-400 h-[100%] border-2 border-sky-400 inline-flex rounded-2xl text-blue-950  font-semibold items-center justify-center  "
         >
-          <button className="w-23 hover:bg-blue-950 hover:text-sky-400 h-[100%]  flex items-center justify-center transition-all duration-500 rounded-2xl hover:w-full  ">
+          <button type="submit"  className="w-23 hover:bg-blue-950 hover:text-sky-400 h-[100%]  flex items-center justify-center transition-all duration-500 rounded-2xl hover:w-full  ">
             SUBMIT
           </button>
         </a>

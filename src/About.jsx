@@ -15,7 +15,7 @@ export default function About(){
           <img
           src="/src/assets/blue.jpg"
           alt="#"
-          className=" h-[100%] block w-[100%] rounded-[50%] border-[.5rem] border-sky-400 "
+          className=" h-[100%] block w-[100%] rounded-[50%] border-[.45rem] border-sky-400 "
         />
         </div>
           </div>        

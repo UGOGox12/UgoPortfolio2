@@ -16,16 +16,16 @@ export default function Home(){
         </p>
         <div className="btn-box w-[345px] h-[50px] flex items-center justify-between">
           <a
-            href="#"
+            href="#cont"
             className=" relative w-[150px] bg-sky-400 h-[100%] border-2 border-sky-400 inline-flex rounded-2xl text-blue-950  font-semibold items-center justify-center "
           >
             {/* PROJECT LINKS HERE */}
-            <span className=" w-19 hover:bg-blue-950 hover:text-sky-400 h-[100%] flex items-center justify-center transition-all duration-500 rounded-2xl hover:w-full  ">
-              Hire Me
+            <span className=" w-25 hover:bg-blue-950 hover:text-sky-400 h-[100%] flex items-center justify-center transition-all duration-500 rounded-2xl hover:w-full  ">
+              Contact Me
             </span>
           </a>
           <a
-            href="#"
+            href=""
             className="  relative w-[150px] text-sky-400 h-[100%]  inline-flex rounded-2xl border-2 border-sky-400  font-semibold items-center justify-center bg-transparent "
           > 
              {/* DOWNLOAD CV HERE */}
@@ -35,26 +35,26 @@ export default function Home(){
           </a>
         </div>
       </div>
-      
+            {/* <img src="./src/assets/blue.jpg" alt="this should be ugo" className="h-90 w-90 absolute right-[16rem] top-[6rem] rounded-[35%] "/> */}
       <div className="my-Socials max-sm:ml-0 Open  flex  gap-20 mt-20 ml-10 ">
         
         <a href="#" className="text-white">
           <img
-            src="./src/assets/linkedin.svg"
+            src="/src/assets/linkedin.svg"
             alt="hey"
             className="w-7 h-7 rounded-4xl bg-sky-400 hover:scale-[1.5] transition-all"
           />
         </a>
         <a href="#">
           <img
-            src="./src/assets/github_repository.svg"
+            src="/src/assets/github_repository.svg"
             alt="hey"
             className="w-7 h-7  border-sky-400 border-2 rounded-4xl bg-sky-400 hover:scale-[1.5] transition-all"
           />
         </a>
         <a href="#">
           <img
-            src="./src/assets/google.svg"
+            src="/src/assets/google.svg"
             alt="hey"
             className="w-7 h-7  hover:scale-[1.5] transition-all rounded-4xl "
           />
