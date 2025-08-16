@@ -1,3 +1,5 @@
+import logoUrl from '/src/assets/linkedin.svg'
+
 export default function Home(){
     return(
         <>
@@ -40,7 +42,7 @@ export default function Home(){
         
         <a href="#" className="text-white">
           <img
-            src="/src/assets/linkedin.svg"
+            src={logoUrl}
             alt="hey"
             className="w-7 h-7 rounded-4xl bg-sky-400 hover:scale-[1.5] transition-all"
           />
