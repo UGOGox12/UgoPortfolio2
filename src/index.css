@@ -204,7 +204,7 @@ body{
 }
 .home{
     /* background-color:#162456; */
-    background-image: url("./src/assets/ugoh.jpeg");
+    background-image: url("/src/assets/ugoh.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

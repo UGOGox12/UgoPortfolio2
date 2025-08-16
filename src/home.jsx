@@ -1,4 +1,7 @@
 import logoUrl from '/src/assets/linkedin.svg'
+import git from '/src/assets/github_repository.svg'
+import goo from '/src/assets/google.svg'
+
 
 export default function Home(){
     return(
@@ -49,14 +52,14 @@ export default function Home(){
         </a>
         <a href="#">
           <img
-            src="/src/assets/github_repository.svg"
+            src={git}
             alt="hey"
             className="w-7 h-7  border-sky-400 border-2 rounded-4xl bg-sky-400 hover:scale-[1.5] transition-all"
           />
         </a>
         <a href="#">
           <img
-            src="/src/assets/google.svg"
+            src={goo}
             alt="hey"
             className="w-7 h-7  hover:scale-[1.5] transition-all rounded-4xl "
           />

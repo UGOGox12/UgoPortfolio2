@@ -1,3 +1,6 @@
+import me from '/src/assets/blue.jpg'
+
+
 export default function About(){
     return(
         <>
@@ -13,7 +16,7 @@ export default function About(){
           
         <div className="  p-5 Cir absolute ">
           <img
-          src="/src/assets/blue.jpg"
+          src={me}
           alt="#"
           className=" h-[100%] block w-[100%] rounded-[50%] border-[.45rem] border-sky-400 "
         />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createRoot } from "react-dom/client";
 // import back from "./assets/epi.jpg"
+import burg from '/src/assets/hamburger-White.svg'
 
 
 
@@ -28,7 +29,7 @@ function hamburger1(){
         Ugo.
       </p>
        <button onClick={hamburger1} className="BUT"  >
-        <img src="./src/assets/hamburger-White.svg" alt="hamburger menu" />
+      <img src={burg} alt="hamburger menu" />
        </button>
       <nav className={`text-white text-[18px] flex gap-3 ${hamburger && "ham"}`}>
         <a
