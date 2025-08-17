@@ -16,7 +16,7 @@ export default function Education(){
           <div className="education-box border-transparent border-l-sky-400 border-2">
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem]">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem]"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2023-Ongoing</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center  "> <img alt="calender" src={calender} className=" text-sky-400 w-6" />2023-Ongoing</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5">BSc. Software Eng.</h3>
                 <p>
                   I am a student a Babcock University Ilishan Remo, located in
@@ -29,7 +29,7 @@ export default function Education(){
 
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem]">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem]"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2024-2025</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2024-2025</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5"> Udemy, Full Stack Dev.</h3>
                 <p>
                   I bought the best selling Course i could find on Udemy.
@@ -42,7 +42,7 @@ export default function Education(){
 
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem]">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem]"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2025</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2025</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5">Python Programming</h3>
                 <p>
                   I was looking for Programming languages to add my Arsenal.
@@ -63,7 +63,7 @@ export default function Education(){
           <div className="education-box border-transparent border-l-sky-400 border-2">
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem]">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem]"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2024-2025</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2024-2025</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5">Freelanced Preparkering</h3>
                 <p>
                   A client had requested for a system that could be used for  
@@ -76,7 +76,7 @@ export default function Education(){
 
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem]">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem]"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2023-2024</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center"> <img alt="calender" src={calender} className="text-sky-400 w-6" />2023-2024</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5">Group Project</h3>
                 <p>
                   A group of associates and i were tasked to build a fully Responsive website for 
@@ -89,7 +89,7 @@ export default function Education(){
 
             <div className="education-content relative pl-[1.5rem]">
               <div className="content relative p-[1.5rem] border-[.2rem] border-sky-400 rounded-[.6rem] mb-[2rem] ">
-                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] "> <img alt="calender" src={calender} className="text-sky-400 w-6  " /> 2025</div>
+                <div className="year flex gap-2 text-[1.5rem] text-sky-400 pb-[.5rem] max-sm:flex max-sm:justify-center "> <img alt="calender" src={calender} className="text-sky-400 w-6  " /> 2025</div>
                 <h3 className="font-bold text-[1.4rem] mb-1.5">freelanced Pygame</h3>
                 <p>
                   I already had a hobby of building simply pthon games. So when
