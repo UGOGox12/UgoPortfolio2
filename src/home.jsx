@@ -1,6 +1,7 @@
-import logoUrl from '/src/assets/linkedin.svg'
+import linkedin from '/src/assets/linkedin.svg'
 import git from '/src/assets/github_repository.svg'
 import goo from '/src/assets/google.svg'
+import cv from '/src/assets/properCV1.png'
 
 
 export default function Home(){
@@ -30,7 +31,8 @@ export default function Home(){
             </span>
           </a>
           <a
-            href=""
+            download
+            href={cv}
             className="  relative w-[150px] text-sky-400 h-[100%]  inline-flex rounded-2xl border-2 border-sky-400  font-semibold items-center justify-center bg-transparent "
           > 
              {/* DOWNLOAD CV HERE */}
@@ -43,14 +45,14 @@ export default function Home(){
             {/* <img src="./src/assets/blue.jpg" alt="this should be ugo" className="h-90 w-90 absolute right-[16rem] top-[6rem] rounded-[35%] "/> */}
       <div className="my-Socials max-sm:ml-0 Open  flex  gap-20 mt-20 ml-10 ">
         
-        <a href="#" className="text-white">
+        <a target='_blank' href="https://www.linkedin.com/in/ugochukwu-esomonu" className="text-white">
           <img
-            src={logoUrl}
+            src={linkedin}
             alt="hey"
             className="w-7 h-7 rounded-4xl bg-sky-400 hover:scale-[1.5] transition-all"
           />
         </a>
-        <a href="#">
+        <a target='_blank' href="https://github.com/UGOGox12">
           <img
             src={git}
             alt="hey"
