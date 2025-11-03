@@ -152,7 +152,7 @@ function Contact() {
     const data = Object.fromEntries(formData);
 
     try {
-      const response = await fetch("http://localhost:3001/api/sendEmail", {
+      const response = await fetch("http://localhost:5000/api/sendEmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
